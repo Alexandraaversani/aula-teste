@@ -1,0 +1,26 @@
+{
+  "name": "aula-teste",
+  "version": "1.0.0",
+  "description": "Repositório para aula inicial de Testes de Software",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandraaversani/aula-teste.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "TSOF",
+    "Jest"
+  ],
+  "author": "Alexandra Aversani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexandraaversani/aula-teste/issues"
+  },
+  "homepage": "https://github.com/Alexandraaversani/aula-teste#readme"
+}
