@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Alexandraaversani/aula-teste/issues"
   },
-  "homepage": "https://github.com/Alexandraaversani/aula-teste#readme"
+  "homepage": "https://github.com/Alexandraaversani/aula-teste#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }
